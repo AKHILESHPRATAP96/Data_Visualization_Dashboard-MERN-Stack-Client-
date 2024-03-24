@@ -1,0 +1,19 @@
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: absolute;
+        height: 200px;
+        overflow: auto;
+       border-radius: "40px";
+       scrollbar-width: "none !important"
+    }
+}
+
+@media (max-width: 500px) {
+    .navbar-expand-lg .navbar-nav .dropdown-menu {
+        position: absolute;
+        height: 200px;
+        overflow: auto;
+       border-radius: "40px";
+       scrollbar-width: "none !important"
+    }
+}
